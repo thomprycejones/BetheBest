@@ -55,6 +55,8 @@ public class PokedexFragment extends Fragment {
     private JSONObject pokedex;
     private RequestQueue requestQueue;
 
+    public Boolean click = false;
+
     public PokedexFragment() {
     }
 
@@ -114,6 +116,16 @@ public class PokedexFragment extends Fragment {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                click = !click;
+                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+                    Interpolator interpolador = AnimationUtils.loadInterpolator(getContext(),
+                            android.R.interpolator.fast_out_slow_in);
+
+                    view.animate()
+                            .rotation(click ? 360f : 0)
+                            .setInterpolator(interpolador)
+                            .start();
+                }
                 if(searchInput.getVisibility() == View.GONE){
                     searchInput.setVisibility(View.VISIBLE);
                     filter("pika");
