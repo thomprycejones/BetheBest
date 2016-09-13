@@ -67,4 +67,5 @@
     <string name="home_updateapk">Actualizar</string>
     <string name="home_dowloadingtoast">Descargando...</string>
     <string name="home_newversiontoast">Una nueva versión de la aplicación esta disponible!</string>
+    <string name="pokedex_searchhint"><i>Nombre o Numero</i></string>
 </resources>

@@ -46,6 +46,7 @@
     <string name="pokedex_iv">IV CALCULATOR</string>
     <string name="pokedex_evolve">EVOLVE</string>
     <string name="pokedex_combatmoves">COMBAT MOVES</string>
+    <string name="pokedex_searchhint"><i>Name or Number</i></string>
 
     <!-- Ads Fragment -->
     <string name="ads_banner">BANNER</string>

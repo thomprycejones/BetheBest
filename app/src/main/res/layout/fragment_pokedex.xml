@@ -13,22 +13,39 @@ android:layout_height="match_parent" >
     android:padding="3dp"
     android:scrollbars="vertical" />
 
-    <EditText
-        android:id="@+id/fab_search"
-        android:background="@drawable/search_text"
+    <FrameLayout
+        android:id="@+id/fab_layout"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         android:layout_gravity="end|bottom"
         android:layout_marginBottom="80dp"
-        android:hint="Name or Number"
-        android:drawablePadding="20dp"
-        android:paddingLeft="8dp"
-        android:paddingRight="12dp"
-        android:paddingTop="12dp"
-        android:paddingBottom="12dp"
-        android:visibility="gone" />
+        android:visibility="gone"
+        >
+
+        <EditText
+            android:id="@+id/fab_search"
+            android:background="@drawable/search_text"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/pokedex_searchhint"
+            android:drawablePadding="20dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/fab_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right|center_vertical"
+            android:background="@android:drawable/ic_notification_clear_all" />
+
+    </FrameLayout>
+
+
 
 
     <android.support.design.widget.FloatingActionButton
@@ -40,4 +57,6 @@ android:layout_height="match_parent" >
     android:src="@drawable/ic_notificationball"
     app:fabSize="normal"
     app:backgroundTint="@color/colorPrimary" />
+
+
 </android.support.design.widget.CoordinatorLayout>
