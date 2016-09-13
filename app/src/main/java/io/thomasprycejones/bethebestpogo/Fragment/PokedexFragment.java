@@ -1,6 +1,8 @@
 package io.thomasprycejones.bethebestpogo.Fragment;
 
 import android.animation.Animator;
+import android.app.Activity;
+import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -9,12 +11,17 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.Editable;
+import android.text.InputType;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
 import com.android.volley.Request;
@@ -89,62 +96,17 @@ public class PokedexFragment extends Fragment {
         recycler.setLayoutManager(lManager);
         // Crear un nuevo adaptador
         adapter = new PokemonAdapter(pokemones, getActivity());
-
         recycler.setAdapter(adapter);
         // Setear UI
         String team = prefManager.isWhatTeam();
         setTeamsAndColors(team);
 
         //Fab y listener scroll recycleview
-        final FloatingActionButton fab = (FloatingActionButton) view.findViewById(fab_reciclador);
-        final EditText searchInput = (EditText) view.findViewById(fab_search);
-        recycler.addOnScrollListener(new RecyclerView.OnScrollListener(){
-            @Override
-            public void onScrolled(RecyclerView recyclerView, int dx, int dy){
-                if (dy > 0 ||dy<0 && fab.isShown())
-                    fab.hide();
-            }
-            @Override
-            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
-
-                if (newState == RecyclerView.SCROLL_STATE_IDLE){
-                    fab.show();
-                }
-                super.onScrollStateChanged(recyclerView, newState);
-            }
-        });
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                click = !click;
-                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
-                    Interpolator interpolador = AnimationUtils.loadInterpolator(getContext(),
-                            android.R.interpolator.fast_out_slow_in);
-
-                    view.animate()
-                            .rotation(click ? 360f : 0)
-                            .setInterpolator(interpolador)
-                            .start();
-                }
-                if(searchInput.getVisibility() == View.GONE){
-                    searchInput.setVisibility(View.VISIBLE);
-                    filter("pika");
-                    adapter = new PokemonAdapter(pokemones, getActivity());
-                    recycler.setAdapter(adapter);
-                }
-                else{
-                    searchInput.setVisibility(View.GONE);
-                    filter("char");
-                    adapter = new PokemonAdapter(pokemones, getActivity());
-                    recycler.setAdapter(adapter);
-                }
-
-            }
-        });
-
+        instantiateFAB(view);
 
         return view;
     }
+
 
     public String loadJSONFromAsset(String source) {
         String json = null;
@@ -161,6 +123,7 @@ public class PokedexFragment extends Fragment {
         }
         return json;
     }
+
 
     //Set UI things
     private void setTeamsAndColors(String team){
@@ -182,6 +145,7 @@ public class PokedexFragment extends Fragment {
                 break;
         }
     }
+
 
     private void instantiatePokemon(){
         try {
@@ -242,6 +206,134 @@ public class PokedexFragment extends Fragment {
         }
     }
 
+
+    private void instantiateFAB(View view){
+        final FloatingActionButton fab = (FloatingActionButton) view.findViewById(fab_reciclador);
+        final EditText searchInput = (EditText) view.findViewById(fab_search);
+        Interpolator interpolador = AnimationUtils.loadInterpolator(getContext(),
+                android.R.interpolator.fast_out_slow_in);
+        searchInput.animate()
+                .scaleX(0)
+                .scaleY(0)
+                .setDuration(5)
+                .setInterpolator(interpolador)
+                .start();
+        recycler.addOnScrollListener(new RecyclerView.OnScrollListener(){
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy){
+                if (dy > 0 ||dy<0 && fab.isShown())
+                    fab.hide();
+            }
+            @Override
+            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+
+                if (newState == RecyclerView.SCROLL_STATE_IDLE){
+                    fab.show();
+                }
+                super.onScrollStateChanged(recyclerView, newState);
+            }
+        });
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                click = !click;
+                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+                    Interpolator interpolador = AnimationUtils.loadInterpolator(getContext(),
+                            android.R.interpolator.fast_out_slow_in);
+
+                    view.animate()
+                            .rotation(click ? 360f : 0)
+                            .setInterpolator(interpolador)
+                            .start();
+                }
+                if(searchInput.getVisibility() == View.GONE){
+                    Interpolator interpolador = AnimationUtils.loadInterpolator(getContext(),
+                            android.R.interpolator.fast_out_slow_in);
+                    searchInput.animate()
+                            .scaleX(1)
+                            .scaleY(1)
+                            .setDuration(500)
+                            .setInterpolator(interpolador)
+                            .setListener(new Animator.AnimatorListener() {
+                                @Override
+                                public void onAnimationStart(Animator animator) {
+                                    searchInput.setVisibility(View.VISIBLE);
+                                }
+
+                                @Override
+                                public void onAnimationEnd(Animator animator) {
+
+                                }
+
+                                @Override
+                                public void onAnimationCancel(Animator animator) {
+
+                                }
+
+                                @Override
+                                public void onAnimationRepeat(Animator animator) {
+
+                                }
+                            })
+                            .start();
+                }
+                else{
+                    Interpolator interpolador = AnimationUtils.loadInterpolator(getContext(),
+                            android.R.interpolator.fast_out_slow_in);
+                    searchInput.animate()
+                            .scaleX(0)
+                            .scaleY(0)
+                            .setDuration(500)
+                            .setInterpolator(interpolador)
+                            .setListener(new Animator.AnimatorListener() {
+                                @Override
+                                public void onAnimationStart(Animator animator) {
+                                    searchInput.setText("");
+                                    hideKeyboard(getContext());
+                                }
+
+                                @Override
+                                public void onAnimationEnd(Animator animator) {
+                                    searchInput.setVisibility(View.GONE);
+                                }
+
+                                @Override
+                                public void onAnimationCancel(Animator animator) {
+
+                                }
+
+                                @Override
+                                public void onAnimationRepeat(Animator animator) {
+
+                                }
+                            })
+                            .start();
+                }
+            }
+        });
+
+        searchInput.addTextChangedListener(new TextWatcher() {
+
+            @Override
+            public void afterTextChanged(Editable s) {}
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start,
+                                          int count, int after) {
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start,
+                                      int before, int count) {
+                String input = String.valueOf(s);
+                filter((String) input);
+                adapter = new PokemonAdapter(pokemones, getActivity());
+                recycler.setAdapter(adapter);
+            }
+        });
+    }
+
+
     public void filter(String text) {
         if(text.isEmpty()){
             pokemones.clear();
@@ -250,7 +342,8 @@ public class PokedexFragment extends Fragment {
             ArrayList<Pokemon> result = new ArrayList<>();
             text = text.toLowerCase();
             for(Pokemon item: pokemonesBackup){
-                if(item.getName().toLowerCase().contains(text) || item.getNumber().toLowerCase().contains(text)){
+                if(item.getName().toLowerCase().contains(text) || item.getNumber().toLowerCase().contains(text)
+                        || item.getType1().toLowerCase().contains(text) || item.getType2().toLowerCase().contains(text)){
                     result.add(item);
                 }
             }
@@ -258,4 +351,18 @@ public class PokedexFragment extends Fragment {
             pokemones.addAll(result);
         }
     }
+
+    public static void hideKeyboard(Context ctx) {
+        InputMethodManager inputManager = (InputMethodManager) ctx
+                .getSystemService(Context.INPUT_METHOD_SERVICE);
+
+        // check if no view has focus:
+        View v = ((Activity) ctx).getCurrentFocus();
+        if (v == null)
+            return;
+
+        inputManager.hideSoftInputFromWindow(v.getWindowToken(), 0);
+    }
+
+
 }
