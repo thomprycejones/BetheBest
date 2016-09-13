@@ -126,6 +126,20 @@ public class PokemonAdapter extends RecyclerView.Adapter<PokemonAdapter.PokemonV
 
     @Override
     public void onBindViewHolder(PokemonViewHolder viewHolder, final int i) {
+
+        //Handle some problems
+        //region
+        if(viewHolder.pokemoncardextended_layoutevolve_results.getChildCount() > 0) {
+            viewHolder.pokemoncardextended_layoutevolve_results.removeAllViews();
+        }
+        if(viewHolder.pokemoncardextended_layoutevolve.getVisibility() == View.VISIBLE) {
+            viewHolder.pokemoncardextended_layoutevolve.setVisibility(View.GONE);
+        }
+        if(viewHolder.pokemoncardextended_layoutinformation.getVisibility() == View.GONE) {
+            viewHolder.pokemoncardextended_layoutinformation.setVisibility(View.VISIBLE);
+        }
+        //endregion
+
         //Load pokemon image
         //region
         Picasso.with(context).load(items.get(i).getImgAssets()).into(viewHolder.pokemoncard_img);
