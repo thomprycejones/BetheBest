@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Be the Best</string>
+    <string name="app_name_2">Be the Best - Pokemon Go Help</string>
+    <string name="choose_instinct">GO</string>
+    <string name="choose_mystic">GO</string>
+    <string name="choose_valor">GO</string>
+    <string name="next">SIGUIENTE</string>
+    <string name="select_team">Selecciona tu Equipo</string>
+    <string name="skip">SALTAR</string>
+    <string name="slide_1_desc">La manera más sencilla de convertirte en el mejor entrenador Pokemon!</string>
+    <string name="slide_1_title">Quieres Ser el Mejor?</string>
+    <string name="slide_2_desc">Averigua si tu Pokemon puede ser el Mejor!</string>
+    <string name="slide_2_title">Calculadora de IV</string>
+    <string name="slide_3_desc">Captura, Entrena y Lucha para ser el Mejor!</string>
+    <string name="slide_3_title">Los Mejores Consejos</string>
+    <string name="slide_4_title">Conviertete en el Mejor Entrenador!</string>
+    <string name="start">LO TENGO</string>
+    <string name="action_settings">Opciones</string>
+
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+    <string name="ads_banner">BANNER</string>
+    <string name="ads_fragment">ADS</string>
+    <string name="ads_interstial">INTERSTICIAL</string>
+    <string name="ads_pedirBanner">Mostrar Banner</string>
+    <string name="ads_pedirInterstial">Mostrar Intersticial</string>
+    <string name="ads_permission">Apretar estos botones te mostrará publicidad. \n        Esto es como una pequeña propina al desarrollador.\n         Gracias :)</string>
+    <string name="home_fragment">HOME</string>
+    <string name="home_startactivity">Empezar Actividad</string>
+    <string name="news_fragment">NOTICIAS</string>
+    <string name="pokedex_fragment">POKEDEX</string>
+    <string name="pokedex_information">INFORMACIÓN</string>
+    <string name="pokedex_iv">CALCULADORA IV</string>
+    <string name="tips_fragment">TIPS</string>
+    <string name="webservice_close">CERRAR</string>
+    <string name="webservice_iv">IV</string>
+    <string name="webservice_map">MAPA</string>
+    <string name="title_activity_settings">Be the Best</string>
+    <string name="pokedex_combatmoves">MOVIMIENTOS DE COMBATE</string>
+    <string name="pokedex_evolve">EVOLUCIÓN</string>
+    <string name="home_updateapk">Actualizar</string>
+    <string name="home_dowloadingtoast">Descargando...</string>
+    <string name="home_newversiontoast">Una nueva versión de la aplicación esta disponible!</string>
+</resources>

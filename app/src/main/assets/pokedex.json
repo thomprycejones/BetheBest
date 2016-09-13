@@ -1,0 +1,2679 @@
+[
+  {
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Flying",
+      "Psychic"
+    ],
+    "defense": 126,
+    "id": 1,
+    "name": "Bulbasaur",
+    "attack": 126,
+    "candy": "Bulbasaur Candy",
+    "type": "Grass / Poison",
+    "stamina": 90,
+    "img": "http://www.serebii.net/pokemongo/pokemon/001.png",
+    "num": "001",
+    "multipliers": 1.58
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Flying",
+      "Psychic"
+    ],
+    "defense": 158,
+    "id": 2,
+    "name": "Ivysaur",
+    "attack": 156,
+    "candy": "Bulbasaur Candy",
+    "type": "Grass / Poison",
+    "stamina": 120,
+    "img": "http://www.serebii.net/pokemongo/pokemon/002.png",
+    "num": "002",
+    "multipliers": [
+      1.2,
+      1.6
+    ]
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Flying",
+      "Psychic"
+    ],
+    "defense": 200,
+    "id": 3,
+    "name": "Venusaur",
+    "attack": 198,
+    "candy": "Bulbasaur Candy",
+    "type": "Grass / Poison",
+    "stamina": 160,
+    "img": "http://www.serebii.net/pokemongo/pokemon/003.png",
+    "num": "003",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Ground",
+      "Rock"
+    ],
+    "defense": 108,
+    "id": 4,
+    "name": "Charmander",
+    "attack": 128,
+    "candy": "Charmander Candy",
+    "type": "Fire",
+    "stamina": 78,
+    "img": "http://www.serebii.net/pokemongo/pokemon/004.png",
+    "num": "004",
+    "multipliers": 1.65
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Ground",
+      "Rock"
+    ],
+    "defense": 140,
+    "id": 5,
+    "name": "Charmeleon",
+    "attack": 160,
+    "candy": "Charmander Candy",
+    "type": "Fire",
+    "stamina": 116,
+    "img": "http://www.serebii.net/pokemongo/pokemon/005.png",
+    "num": "005",
+    "multipliers": 1.79
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Electric",
+      "Rock"
+    ],
+    "defense": 182,
+    "id": 6,
+    "name": "Charizard",
+    "attack": 212,
+    "candy": "Charmander Candy",
+    "type": "Fire / Flying",
+    "stamina": 156,
+    "img": "http://www.serebii.net/pokemongo/pokemon/006.png",
+    "num": "006",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 142,
+    "id": 7,
+    "name": "Squirtle",
+    "attack": 112,
+    "candy": "Squirtle Candy",
+    "type": "Water",
+    "stamina": 88,
+    "img": "http://www.serebii.net/pokemongo/pokemon/007.png",
+    "num": "007",
+    "multipliers": 2.1
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 176,
+    "id": 8,
+    "name": "Wartortle",
+    "attack": 144,
+    "candy": "Squirtle Candy",
+    "type": "Water",
+    "stamina": 118,
+    "img": "http://www.serebii.net/pokemongo/pokemon/008.png",
+    "num": "008",
+    "multipliers": 1.4
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 222,
+    "id": 9,
+    "name": "Blastoise",
+    "attack": 186,
+    "candy": "Squirtle Candy",
+    "type": "Water",
+    "stamina": 158,
+    "img": "http://www.serebii.net/pokemongo/pokemon/009.png",
+    "num": "009",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Flying",
+      "Rock"
+    ],
+    "defense": 66,
+    "id": 10,
+    "name": "Caterpie",
+    "attack": 62,
+    "candy": "Caterpie Candy",
+    "type": "Bug",
+    "stamina": 90,
+    "img": "http://www.serebii.net/pokemongo/pokemon/010.png",
+    "num": "010",
+    "multipliers": 1.05
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Flying",
+      "Rock"
+    ],
+    "defense": 86,
+    "id": 11,
+    "name": "Metapod",
+    "attack": 56,
+    "candy": "Caterpie Candy",
+    "type": "Bug",
+    "stamina": 100,
+    "img": "http://www.serebii.net/pokemongo/pokemon/011.png",
+    "num": "011",
+    "multipliers": [
+      3.55,
+      3.79
+    ]
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Electric",
+      "Ice",
+      "Flying",
+      "Rock"
+    ],
+    "defense": 144,
+    "id": 12,
+    "name": "Butterfree",
+    "attack": 144,
+    "candy": "Caterpie Candy",
+    "type": "Bug / Flying",
+    "stamina": 120,
+    "img": "http://www.serebii.net/pokemongo/pokemon/012.png",
+    "num": "012",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Flying",
+      "Psychic",
+      "Rock"
+    ],
+    "defense": 64,
+    "id": 13,
+    "name": "Weedle",
+    "attack": 68,
+    "candy": "Weedle Candy",
+    "type": "Bug / Poison",
+    "stamina": 80,
+    "img": "http://www.serebii.net/pokemongo/pokemon/013.png",
+    "num": "013",
+    "multipliers": [
+      1.01,
+      1.09
+    ]
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Flying",
+      "Psychic",
+      "Rock"
+    ],
+    "defense": 82,
+    "id": 14,
+    "name": "Kakuna",
+    "attack": 62,
+    "candy": "Weedle Candy",
+    "type": "Bug / Poison",
+    "stamina": 90,
+    "img": "http://www.serebii.net/pokemongo/pokemon/014.png",
+    "num": "014",
+    "multipliers": [
+      3.01,
+      3.41
+    ]
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Flying",
+      "Psychic",
+      "Rock"
+    ],
+    "defense": 130,
+    "id": 15,
+    "name": "Beedrill",
+    "attack": 144,
+    "candy": "Weedle Candy",
+    "type": "Bug / Poison",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/015.png",
+    "num": "015",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Rock"
+    ],
+    "defense": 90,
+    "id": 16,
+    "name": "Pidgey",
+    "attack": 94,
+    "candy": "Pidgey Candy",
+    "type": "Normal / Flying",
+    "stamina": 80,
+    "img": "http://www.serebii.net/pokemongo/pokemon/016.png",
+    "num": "016",
+    "multipliers": [
+      1.71,
+      1.92
+    ]
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Rock"
+    ],
+    "defense": 122,
+    "id": 17,
+    "name": "Pidgeotto",
+    "attack": 126,
+    "candy": "Pidgey Candy",
+    "type": "Normal / Flying",
+    "stamina": 126,
+    "img": "http://www.serebii.net/pokemongo/pokemon/017.png",
+    "num": "017",
+    "multipliers": 1.79
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Rock"
+    ],
+    "defense": 166,
+    "id": 18,
+    "name": "Pidgeot",
+    "attack": 170,
+    "candy": "Pidgey Candy",
+    "type": "Normal / Flying",
+    "stamina": 166,
+    "img": "http://www.serebii.net/pokemongo/pokemon/018.png",
+    "num": "018",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 86,
+    "id": 19,
+    "name": "Rattata",
+    "attack": 92,
+    "candy": "Rattata Candy",
+    "type": "Normal",
+    "stamina": 60,
+    "img": "http://www.serebii.net/pokemongo/pokemon/019.png",
+    "num": "019",
+    "multipliers": [
+      2.55,
+      2.73
+    ]
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 150,
+    "id": 20,
+    "name": "Raticate",
+    "attack": 146,
+    "candy": "Rattata Candy",
+    "type": "Normal",
+    "stamina": 110,
+    "img": "http://www.serebii.net/pokemongo/pokemon/020.png",
+    "num": "020",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Rock"
+    ],
+    "defense": 78,
+    "id": 21,
+    "name": "Spearow",
+    "attack": 102,
+    "candy": "Spearow Candy",
+    "type": "Normal / Flying",
+    "stamina": 80,
+    "img": "http://www.serebii.net/pokemongo/pokemon/021.png",
+    "num": "021",
+    "multipliers": [
+      2.66,
+      2.68
+    ]
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Rock"
+    ],
+    "defense": 146,
+    "id": 22,
+    "name": "Fearow",
+    "attack": 168,
+    "candy": "Spearow Candy",
+    "type": "Normal / Flying",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/022.png",
+    "num": "022",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Ground",
+      "Psychic"
+    ],
+    "defense": 112,
+    "id": 23,
+    "name": "Ekans",
+    "attack": 112,
+    "candy": "Ekans Candy",
+    "type": "Poison",
+    "stamina": 70,
+    "img": "http://www.serebii.net/pokemongo/pokemon/023.png",
+    "num": "023",
+    "multipliers": [
+      2.21,
+      2.27
+    ]
+  },
+  {
+    "weaknesses": [
+      "Ground",
+      "Psychic"
+    ],
+    "defense": 166,
+    "id": 24,
+    "name": "Arbok",
+    "attack": 166,
+    "candy": "Ekans Candy",
+    "type": "Poison",
+    "stamina": 120,
+    "img": "http://www.serebii.net/pokemongo/pokemon/024.png",
+    "num": "024",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Ground"
+    ],
+    "defense": 108,
+    "id": 25,
+    "name": "Pikachu",
+    "attack": 124,
+    "candy": "Pikachu Candy",
+    "type": "Electric",
+    "stamina": 70,
+    "img": "http://www.serebii.net/pokemongo/pokemon/025.png",
+    "num": "025",
+    "multipliers": 2.34
+  },
+  {
+    "weaknesses": [
+      "Ground"
+    ],
+    "defense": 154,
+    "id": 26,
+    "name": "Raichu",
+    "attack": 200,
+    "candy": "Pikachu Candy",
+    "type": "Electric",
+    "stamina": 120,
+    "img": "http://www.serebii.net/pokemongo/pokemon/026.png",
+    "num": "026",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Grass",
+      "Ice"
+    ],
+    "defense": 114,
+    "id": 27,
+    "name": "Sandshrew",
+    "attack": 90,
+    "candy": "Sandshrew Candy",
+    "type": "Ground",
+    "stamina": 100,
+    "img": "http://www.serebii.net/pokemongo/pokemon/027.png",
+    "num": "027",
+    "multipliers": 2.45
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Grass",
+      "Ice"
+    ],
+    "defense": 172,
+    "id": 28,
+    "name": "Sandslash",
+    "attack": 150,
+    "candy": "Sandshrew Candy",
+    "type": "Ground",
+    "stamina": 150,
+    "img": "http://www.serebii.net/pokemongo/pokemon/028.png",
+    "num": "028",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Ground",
+      "Psychic"
+    ],
+    "defense": 104,
+    "id": 29,
+    "name": "Nidoran ♀",
+    "attack": 100,
+    "candy": "Nidoran ♀ Candy",
+    "type": "Poison",
+    "stamina": 110,
+    "img": "http://www.serebii.net/pokemongo/pokemon/029.png",
+    "num": "029",
+    "multipliers": [
+      1.63,
+      2.48
+    ]
+  },
+  {
+    "weaknesses": [
+      "Ground",
+      "Psychic"
+    ],
+    "defense": 136,
+    "id": 30,
+    "name": "Nidorina",
+    "attack": 132,
+    "candy": "Nidoran ♀ Candy",
+    "type": "Poison",
+    "stamina": 140,
+    "img": "http://www.serebii.net/pokemongo/pokemon/030.png",
+    "num": "030",
+    "multipliers": [
+      1.83,
+      2.48
+    ]
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Ice",
+      "Ground",
+      "Psychic"
+    ],
+    "defense": 190,
+    "id": 31,
+    "name": "Nidoqueen",
+    "attack": 184,
+    "candy": "Nidoran ♀ Candy",
+    "type": "Poison / Ground",
+    "stamina": 180,
+    "img": "http://www.serebii.net/pokemongo/pokemon/031.png",
+    "num": "031",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Ground",
+      "Psychic"
+    ],
+    "defense": 94,
+    "id": 32,
+    "name": "Nidoran ♂",
+    "attack": 110,
+    "candy": "Nidoran ♂ Candy",
+    "type": "Poison",
+    "stamina": 92,
+    "img": "http://www.serebii.net/pokemongo/pokemon/032.png",
+    "num": "032",
+    "multipliers": [
+      1.64,
+      1.7
+    ]
+  },
+  {
+    "weaknesses": [
+      "Ground",
+      "Psychic"
+    ],
+    "defense": 128,
+    "id": 33,
+    "name": "Nidorino",
+    "attack": 142,
+    "candy": "Nidoran ♂ Candy",
+    "type": "Poison",
+    "stamina": 122,
+    "img": "http://www.serebii.net/pokemongo/pokemon/033.png",
+    "num": "033",
+    "multipliers": 1.83
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Ice",
+      "Ground",
+      "Psychic"
+    ],
+    "defense": 170,
+    "id": 34,
+    "name": "Nidoking",
+    "attack": 204,
+    "candy": "Nidoran ♂ Candy",
+    "type": "Poison / Ground",
+    "stamina": 162,
+    "img": "http://www.serebii.net/pokemongo/pokemon/034.png",
+    "num": "034",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 124,
+    "id": 35,
+    "name": "Clefairy",
+    "attack": 116,
+    "candy": "Clefairy Candy",
+    "type": "Normal",
+    "stamina": 140,
+    "img": "http://www.serebii.net/pokemongo/pokemon/035.png",
+    "num": "035",
+    "multipliers": [
+      2.03,
+      2.14
+    ]
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 178,
+    "id": 36,
+    "name": "Clefable",
+    "attack": 178,
+    "candy": "Clefairy Candy",
+    "type": "Normal",
+    "stamina": 190,
+    "img": "http://www.serebii.net/pokemongo/pokemon/036.png",
+    "num": "036",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Ground",
+      "Rock"
+    ],
+    "defense": 118,
+    "id": 37,
+    "name": "Vulpix",
+    "attack": 106,
+    "candy": "Vulpix Candy",
+    "type": "Fire",
+    "stamina": 76,
+    "img": "http://www.serebii.net/pokemongo/pokemon/037.png",
+    "num": "037",
+    "multipliers": [
+      2.74,
+      2.81
+    ]
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Ground",
+      "Rock"
+    ],
+    "defense": 194,
+    "id": 38,
+    "name": "Ninetales",
+    "attack": 176,
+    "candy": "Vulpix Candy",
+    "type": "Fire",
+    "stamina": 146,
+    "img": "http://www.serebii.net/pokemongo/pokemon/038.png",
+    "num": "038",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 54,
+    "id": 39,
+    "name": "Jigglypuff",
+    "attack": 98,
+    "candy": "Jigglypuff Candy",
+    "type": "Normal",
+    "stamina": 230,
+    "img": "http://www.serebii.net/pokemongo/pokemon/039.png",
+    "num": "039",
+    "multipliers": 1.85
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 108,
+    "id": 40,
+    "name": "Wigglytuff",
+    "attack": 168,
+    "candy": "Jigglypuff Candy",
+    "type": "Normal",
+    "stamina": 280,
+    "img": "http://www.serebii.net/pokemongo/pokemon/040.png",
+    "num": "040",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Ice",
+      "Psychic",
+      "Rock"
+    ],
+    "defense": 90,
+    "id": 41,
+    "name": "Zubat",
+    "attack": 88,
+    "candy": "Zubat Candy",
+    "type": "Poison / Flying",
+    "stamina": 80,
+    "img": "http://www.serebii.net/pokemongo/pokemon/041.png",
+    "num": "041",
+    "multipliers": [
+      2.6,
+      3.67
+    ]
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Ice",
+      "Psychic",
+      "Rock"
+    ],
+    "defense": 164,
+    "id": 42,
+    "name": "Golbat",
+    "attack": 164,
+    "candy": "Zubat Candy",
+    "type": "Poison / Flying",
+    "stamina": 150,
+    "img": "http://www.serebii.net/pokemongo/pokemon/042.png",
+    "num": "042",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Flying",
+      "Psychic"
+    ],
+    "defense": 130,
+    "id": 43,
+    "name": "Oddish",
+    "attack": 134,
+    "candy": "Oddish Candy",
+    "type": "Grass / Poison",
+    "stamina": 90,
+    "img": "http://www.serebii.net/pokemongo/pokemon/043.png",
+    "num": "043",
+    "multipliers": 1.5
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Flying",
+      "Psychic"
+    ],
+    "defense": 158,
+    "id": 44,
+    "name": "Gloom",
+    "attack": 162,
+    "candy": "Oddish Candy",
+    "type": "Grass / Poison",
+    "stamina": 120,
+    "img": "http://www.serebii.net/pokemongo/pokemon/044.png",
+    "num": "044",
+    "multipliers": 1.49
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Flying",
+      "Psychic"
+    ],
+    "defense": 190,
+    "id": 45,
+    "name": "Vileplume",
+    "attack": 202,
+    "candy": "Oddish Candy",
+    "type": "Grass / Poison",
+    "stamina": 150,
+    "img": "http://www.serebii.net/pokemongo/pokemon/045.png",
+    "num": "045",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Poison",
+      "Flying",
+      "Bug",
+      "Rock"
+    ],
+    "defense": 120,
+    "id": 46,
+    "name": "Paras",
+    "attack": 122,
+    "candy": "Paras Candy",
+    "type": "Bug / Grass",
+    "stamina": 70,
+    "img": "http://www.serebii.net/pokemongo/pokemon/046.png",
+    "num": "046",
+    "multipliers": 2.02
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Poison",
+      "Flying",
+      "Bug",
+      "Rock"
+    ],
+    "defense": 170,
+    "id": 47,
+    "name": "Parasect",
+    "attack": 162,
+    "candy": "Paras Candy",
+    "type": "Bug / Grass",
+    "stamina": 120,
+    "img": "http://www.serebii.net/pokemongo/pokemon/047.png",
+    "num": "047",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Flying",
+      "Psychic",
+      "Rock"
+    ],
+    "defense": 118,
+    "id": 48,
+    "name": "Venonat",
+    "attack": 108,
+    "candy": "Venonat Candy",
+    "type": "Bug / Poison",
+    "stamina": 120,
+    "img": "http://www.serebii.net/pokemongo/pokemon/048.png",
+    "num": "048",
+    "multipliers": [
+      1.86,
+      1.9
+    ]
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Flying",
+      "Psychic",
+      "Rock"
+    ],
+    "defense": 154,
+    "id": 49,
+    "name": "Venomoth",
+    "attack": 172,
+    "candy": "Venonat Candy",
+    "type": "Bug / Poison",
+    "stamina": 140,
+    "img": "http://www.serebii.net/pokemongo/pokemon/049.png",
+    "num": "049",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Grass",
+      "Ice"
+    ],
+    "defense": 86,
+    "id": 50,
+    "name": "Diglett",
+    "attack": 108,
+    "candy": "Diglett Candy",
+    "type": "Ground",
+    "stamina": 20,
+    "img": "http://www.serebii.net/pokemongo/pokemon/050.png",
+    "num": "050",
+    "multipliers": 2.69
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Grass",
+      "Ice"
+    ],
+    "defense": 140,
+    "id": 51,
+    "name": "Dugtrio",
+    "attack": 148,
+    "candy": "Dugtrio",
+    "type": "Ground",
+    "stamina": 70,
+    "img": "http://www.serebii.net/pokemongo/pokemon/051.png",
+    "num": "051",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 94,
+    "id": 52,
+    "name": "Meowth",
+    "attack": 104,
+    "candy": "Meowth Candy",
+    "type": "Normal",
+    "stamina": 80,
+    "img": "http://www.serebii.net/pokemongo/pokemon/052.png",
+    "num": "052",
+    "multipliers": 1.98
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 146,
+    "id": 53,
+    "name": "Persian",
+    "attack": 156,
+    "candy": "Meowth Candy",
+    "type": "Normal",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/053.png",
+    "num": "053",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 112,
+    "id": 54,
+    "name": "Psyduck",
+    "attack": 132,
+    "candy": "Psyduck Candy",
+    "type": "Water",
+    "stamina": 100,
+    "img": "http://www.serebii.net/pokemongo/pokemon/054.png",
+    "num": "054",
+    "multipliers": 2.27
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 176,
+    "id": 55,
+    "name": "Golduck",
+    "attack": 194,
+    "candy": "Psyduck Candy",
+    "type": "Water",
+    "stamina": 160,
+    "img": "http://www.serebii.net/pokemongo/pokemon/055.png",
+    "num": "055",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Flying",
+      "Psychic",
+      "Fairy"
+    ],
+    "defense": 96,
+    "id": 56,
+    "name": "Mankey",
+    "attack": 122,
+    "candy": "Mankey Candy",
+    "type": "Fighting",
+    "stamina": 80,
+    "img": "http://www.serebii.net/pokemongo/pokemon/056.png",
+    "num": "056",
+    "multipliers": [
+      2.17,
+      2.28
+    ]
+  },
+  {
+    "weaknesses": [
+      "Flying",
+      "Psychic",
+      "Fairy"
+    ],
+    "defense": 150,
+    "id": 57,
+    "name": "Primeape",
+    "attack": 178,
+    "candy": "Mankey Candy",
+    "type": "Fighting",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/057.png",
+    "num": "057",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Ground",
+      "Rock"
+    ],
+    "defense": 110,
+    "id": 58,
+    "name": "Growlithe",
+    "attack": 156,
+    "candy": "Growlithe Candy",
+    "type": "Fire",
+    "stamina": 110,
+    "img": "http://www.serebii.net/pokemongo/pokemon/058.png",
+    "num": "058",
+    "multipliers": [
+      2.31,
+      2.36
+    ]
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Ground",
+      "Rock"
+    ],
+    "defense": 180,
+    "id": 59,
+    "name": "Arcanine",
+    "attack": 230,
+    "candy": "Growlithe Candy",
+    "type": "Fire",
+    "stamina": 180,
+    "img": "http://www.serebii.net/pokemongo/pokemon/059.png",
+    "num": "059",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 98,
+    "id": 60,
+    "name": "Poliwag",
+    "attack": 108,
+    "candy": "Poliwag Candy",
+    "type": "Water",
+    "stamina": 80,
+    "img": "http://www.serebii.net/pokemongo/pokemon/060.png",
+    "num": "060",
+    "multipliers": [
+      1.72,
+      1.73
+    ]
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 132,
+    "id": 61,
+    "name": "Poliwhirl",
+    "attack": 132,
+    "candy": "Poliwag Candy",
+    "type": "Water",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/061.png",
+    "num": "061",
+    "multipliers": 1.95
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass",
+      "Flying",
+      "Psychic",
+      "Fairy"
+    ],
+    "defense": 202,
+    "id": 62,
+    "name": "Poliwrath",
+    "attack": 180,
+    "candy": "Poliwag Candy",
+    "type": "Water / Fighting",
+    "stamina": 180,
+    "img": "http://www.serebii.net/pokemongo/pokemon/062.png",
+    "num": "062",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Bug",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 76,
+    "id": 63,
+    "name": "Abra",
+    "attack": 110,
+    "candy": "Abra Candy",
+    "type": "Psychic",
+    "stamina": 50,
+    "img": "http://www.serebii.net/pokemongo/pokemon/063.png",
+    "num": "063",
+    "multipliers": [
+      1.36,
+      1.95
+    ]
+  },
+  {
+    "weaknesses": [
+      "Bug",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 112,
+    "id": 64,
+    "name": "Kadabra",
+    "attack": 150,
+    "candy": "Abra Candy",
+    "type": "Psychic",
+    "stamina": 80,
+    "img": "http://www.serebii.net/pokemongo/pokemon/064.png",
+    "num": "064",
+    "multipliers": 1.4
+  },
+  {
+    "weaknesses": [
+      "Bug",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 152,
+    "id": 65,
+    "name": "Alakazam",
+    "attack": 186,
+    "candy": "Abra Candy",
+    "type": "Psychic",
+    "stamina": 110,
+    "img": "http://www.serebii.net/pokemongo/pokemon/065.png",
+    "num": "065",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Flying",
+      "Psychic",
+      "Fairy"
+    ],
+    "defense": 96,
+    "id": 66,
+    "name": "Machop",
+    "attack": 118,
+    "candy": "Machop Candy",
+    "type": "Fighting",
+    "stamina": 140,
+    "img": "http://www.serebii.net/pokemongo/pokemon/066.png",
+    "num": "066",
+    "multipliers": [
+      1.64,
+      1.65
+    ]
+  },
+  {
+    "weaknesses": [
+      "Flying",
+      "Psychic",
+      "Fairy"
+    ],
+    "defense": 144,
+    "id": 67,
+    "name": "Machoke",
+    "attack": 154,
+    "candy": "Machop Candy",
+    "type": "Fighting",
+    "stamina": 160,
+    "img": "http://www.serebii.net/pokemongo/pokemon/067.png",
+    "num": "067",
+    "multipliers": 1.7
+  },
+  {
+    "weaknesses": [
+      "Flying",
+      "Psychic",
+      "Fairy"
+    ],
+    "defense": 180,
+    "id": 68,
+    "name": "Machamp",
+    "attack": 198,
+    "candy": "Machop Candy",
+    "type": "Fighting",
+    "stamina": 180,
+    "img": "http://www.serebii.net/pokemongo/pokemon/068.png",
+    "num": "068",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Flying",
+      "Psychic"
+    ],
+    "defense": 78,
+    "id": 69,
+    "name": "Bellsprout",
+    "attack": 158,
+    "candy": "Bellsprout Candy",
+    "type": "Grass / Poison",
+    "stamina": 100,
+    "img": "http://www.serebii.net/pokemongo/pokemon/069.png",
+    "num": "069",
+    "multipliers": 1.57
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Flying",
+      "Psychic"
+    ],
+    "defense": 110,
+    "id": 70,
+    "name": "Weepinbell",
+    "attack": 190,
+    "candy": "Bellsprout Candy",
+    "type": "Grass / Poison",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/070.png",
+    "num": "070",
+    "multipliers": 1.59
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Flying",
+      "Psychic"
+    ],
+    "defense": 152,
+    "id": 71,
+    "name": "Victreebel",
+    "attack": 222,
+    "candy": "Bellsprout Candy",
+    "type": "Grass / Poison",
+    "stamina": 160,
+    "img": "http://www.serebii.net/pokemongo/pokemon/071.png",
+    "num": "071",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Ground",
+      "Psychic"
+    ],
+    "defense": 136,
+    "id": 72,
+    "name": "Tentacool",
+    "attack": 106,
+    "candy": "Tentacool Candy",
+    "type": "Water / Poison",
+    "stamina": 80,
+    "img": "http://www.serebii.net/pokemongo/pokemon/072.png",
+    "num": "072",
+    "multipliers": 2.52
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Ground",
+      "Psychic"
+    ],
+    "defense": 196,
+    "id": 73,
+    "name": "Tentacruel",
+    "attack": 170,
+    "candy": "Tentacool Candy",
+    "type": "Water / Poison",
+    "stamina": 160,
+    "img": "http://www.serebii.net/pokemongo/pokemon/073.png",
+    "num": "073",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Grass",
+      "Ice",
+      "Fighting",
+      "Ground",
+      "Steel"
+    ],
+    "defense": 118,
+    "id": 74,
+    "name": "Geodude",
+    "attack": 106,
+    "candy": "Geodude Candy",
+    "type": "Rock / Ground",
+    "stamina": 80,
+    "img": "http://www.serebii.net/pokemongo/pokemon/074.png",
+    "num": "074",
+    "multipliers": [
+      1.75,
+      1.76
+    ]
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Grass",
+      "Ice",
+      "Fighting",
+      "Ground",
+      "Steel"
+    ],
+    "defense": 156,
+    "id": 75,
+    "name": "Graveler",
+    "attack": 142,
+    "candy": "Geodude Candy",
+    "type": "Rock / Ground",
+    "stamina": 110,
+    "img": "http://www.serebii.net/pokemongo/pokemon/075.png",
+    "num": "075",
+    "multipliers": [
+      1.64,
+      1.72
+    ]
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Grass",
+      "Ice",
+      "Fighting",
+      "Ground",
+      "Steel"
+    ],
+    "defense": 198,
+    "id": 76,
+    "name": "Golem",
+    "attack": 176,
+    "candy": "Geodude Candy",
+    "type": "Rock / Ground",
+    "stamina": 160,
+    "img": "http://www.serebii.net/pokemongo/pokemon/076.png",
+    "num": "076",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Ground",
+      "Rock"
+    ],
+    "defense": 138,
+    "id": 77,
+    "name": "Ponyta",
+    "attack": 168,
+    "candy": "Ponyta Candy",
+    "type": "Fire",
+    "stamina": 100,
+    "img": "http://www.serebii.net/pokemongo/pokemon/077.png",
+    "num": "077",
+    "multipliers": [
+      1.48,
+      1.5
+    ]
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Ground",
+      "Rock"
+    ],
+    "defense": 170,
+    "id": 78,
+    "name": "Rapidash",
+    "attack": 200,
+    "candy": "Ponyta Candy",
+    "type": "Fire",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/078.png",
+    "num": "078",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass",
+      "Bug",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 110,
+    "id": 79,
+    "name": "Slowpoke",
+    "attack": 110,
+    "candy": "Slowpoke Candy",
+    "type": "Water / Psychic",
+    "stamina": 180,
+    "img": "http://www.serebii.net/pokemongo/pokemon/079.png",
+    "num": "079",
+    "multipliers": 2.21
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass",
+      "Bug",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 198,
+    "id": 80,
+    "name": "Slowbro",
+    "attack": 184,
+    "candy": "Slowpoke Candy",
+    "type": "Water / Psychic",
+    "stamina": 190,
+    "img": "http://www.serebii.net/pokemongo/pokemon/080.png",
+    "num": "080",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Ground"
+    ],
+    "defense": 138,
+    "id": 81,
+    "name": "Magnemite",
+    "attack": 128,
+    "candy": "Magnemite Candy",
+    "type": "Electric",
+    "stamina": 50,
+    "img": "http://www.serebii.net/pokemongo/pokemon/081.png",
+    "num": "081",
+    "multipliers": [
+      2.16,
+      2.17
+    ]
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Ground"
+    ],
+    "defense": 180,
+    "id": 82,
+    "name": "Magneton",
+    "attack": 186,
+    "candy": "Magnemite Candy",
+    "type": "Electric",
+    "stamina": 100,
+    "img": "http://www.serebii.net/pokemongo/pokemon/082.png",
+    "num": "082",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Rock"
+    ],
+    "defense": 132,
+    "id": 83,
+    "name": "Farfetch'd",
+    "attack": 138,
+    "candy": "None",
+    "type": "Normal / Flying",
+    "stamina": 104,
+    "img": "http://www.serebii.net/pokemongo/pokemon/083.png",
+    "num": "083",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Rock"
+    ],
+    "defense": 96,
+    "id": 84,
+    "name": "Doduo",
+    "attack": 126,
+    "candy": "Doduo Candy",
+    "type": "Normal / Flying",
+    "stamina": 70,
+    "img": "http://www.serebii.net/pokemongo/pokemon/084.png",
+    "num": "084",
+    "multipliers": [
+      2.19,
+      2.24
+    ]
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Rock"
+    ],
+    "defense": 150,
+    "id": 85,
+    "name": "Dodrio",
+    "attack": 182,
+    "candy": "Doduo Candy",
+    "type": "Normal / Flying",
+    "stamina": 120,
+    "img": "http://www.serebii.net/pokemongo/pokemon/085.png",
+    "num": "085",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 138,
+    "id": 86,
+    "name": "Seel",
+    "attack": 104,
+    "candy": "Seel Candy",
+    "type": "Water",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/086.png",
+    "num": "086",
+    "multipliers": [
+      1.04,
+      1.96
+    ]
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass",
+      "Fighting",
+      "Rock"
+    ],
+    "defense": 192,
+    "id": 87,
+    "name": "Dewgong",
+    "attack": 156,
+    "candy": "Seel Candy",
+    "type": "Water / Ice",
+    "stamina": 180,
+    "img": "http://www.serebii.net/pokemongo/pokemon/087.png",
+    "num": "087",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Ground",
+      "Psychic"
+    ],
+    "defense": 110,
+    "id": 88,
+    "name": "Grimer",
+    "attack": 124,
+    "candy": "Grimer Candy",
+    "type": "Poison",
+    "stamina": 160,
+    "img": "http://www.serebii.net/pokemongo/pokemon/088.png",
+    "num": "088",
+    "multipliers": 2.44
+  },
+  {
+    "weaknesses": [
+      "Ground",
+      "Psychic"
+    ],
+    "defense": 188,
+    "id": 89,
+    "name": "Muk",
+    "attack": 180,
+    "candy": "Grimer Candy",
+    "type": "Poison",
+    "stamina": 210,
+    "img": "http://www.serebii.net/pokemongo/pokemon/089.png",
+    "num": "089",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 112,
+    "id": 90,
+    "name": "Shellder",
+    "attack": 120,
+    "candy": "Shellder Candy",
+    "type": "Water",
+    "stamina": 60,
+    "img": "http://www.serebii.net/pokemongo/pokemon/090.png",
+    "num": "090",
+    "multipliers": 2.65
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass",
+      "Fighting",
+      "Rock"
+    ],
+    "defense": 196,
+    "id": 91,
+    "name": "Cloyster",
+    "attack": 196,
+    "candy": "Shellder Candy",
+    "type": "Water / Ice",
+    "stamina": 100,
+    "img": "http://www.serebii.net/pokemongo/pokemon/091.png",
+    "num": "091",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Ground",
+      "Psychic",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 82,
+    "id": 92,
+    "name": "Gastly",
+    "attack": 136,
+    "candy": "Gastly Candy",
+    "type": "Ghost / Poison",
+    "stamina": 60,
+    "img": "http://www.serebii.net/pokemongo/pokemon/092.png",
+    "num": "092",
+    "multipliers": 1.78
+  },
+  {
+    "weaknesses": [
+      "Ground",
+      "Psychic",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 118,
+    "id": 93,
+    "name": "Haunter",
+    "attack": 172,
+    "candy": "Gastly Candy",
+    "type": "Ghost / Poison",
+    "stamina": 90,
+    "img": "http://www.serebii.net/pokemongo/pokemon/093.png",
+    "num": "093",
+    "multipliers": [
+      1.56,
+      1.8
+    ]
+  },
+  {
+    "weaknesses": [
+      "Ground",
+      "Psychic",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 156,
+    "id": 94,
+    "name": "Gengar",
+    "attack": 204,
+    "candy": "Gastly Candy",
+    "type": "Ghost / Poison",
+    "stamina": 120,
+    "img": "http://www.serebii.net/pokemongo/pokemon/094.png",
+    "num": "094",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Grass",
+      "Ice",
+      "Fighting",
+      "Ground",
+      "Steel"
+    ],
+    "defense": 186,
+    "id": 95,
+    "name": "Onix",
+    "attack": 90,
+    "candy": "None",
+    "type": "Rock / Ground",
+    "stamina": 70,
+    "img": "http://www.serebii.net/pokemongo/pokemon/095.png",
+    "num": "095",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Bug",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 140,
+    "id": 96,
+    "name": "Drowzee",
+    "attack": 104,
+    "candy": "Drowzee Candy",
+    "type": "Psychic",
+    "stamina": 120,
+    "img": "http://www.serebii.net/pokemongo/pokemon/096.png",
+    "num": "096",
+    "multipliers": [
+      2.08,
+      2.09
+    ]
+  },
+  {
+    "weaknesses": [
+      "Bug",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 196,
+    "id": 97,
+    "name": "Hypno",
+    "attack": 162,
+    "candy": "Drowzee Candy",
+    "type": "Psychic",
+    "stamina": 170,
+    "img": "http://www.serebii.net/pokemongo/pokemon/097.png",
+    "num": "097",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 110,
+    "id": 98,
+    "name": "Krabby",
+    "attack": 116,
+    "candy": "Krabby Candy",
+    "type": "Water",
+    "stamina": 60,
+    "img": "http://www.serebii.net/pokemongo/pokemon/098.png",
+    "num": "098",
+    "multipliers": [
+      2.36,
+      2.4
+    ]
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 168,
+    "id": 99,
+    "name": "Kingler",
+    "attack": 178,
+    "candy": "Krabby Candy",
+    "type": "Water",
+    "stamina": 110,
+    "img": "http://www.serebii.net/pokemongo/pokemon/099.png",
+    "num": "099",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Ground"
+    ],
+    "defense": 124,
+    "id": 100,
+    "name": "Voltorb",
+    "attack": 102,
+    "candy": "Voltorb Candy",
+    "type": "Electric",
+    "stamina": 80,
+    "img": "http://www.serebii.net/pokemongo/pokemon/100.png",
+    "num": "100",
+    "multipliers": [
+      2.01,
+      2.02
+    ]
+  },
+  {
+    "weaknesses": [
+      "Ground"
+    ],
+    "defense": 174,
+    "id": 101,
+    "name": "Electrode",
+    "attack": 150,
+    "candy": "Voltorb Candy",
+    "type": "Electric",
+    "stamina": 120,
+    "img": "http://www.serebii.net/pokemongo/pokemon/101.png",
+    "num": "101",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Poison",
+      "Flying",
+      "Bug",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 132,
+    "id": 102,
+    "name": "Exeggcute",
+    "attack": 110,
+    "candy": "Exeggcute Candy",
+    "type": "Grass / Psychic",
+    "stamina": 120,
+    "img": "http://www.serebii.net/pokemongo/pokemon/102.png",
+    "num": "102",
+    "multipliers": [
+      2.7,
+      3.18
+    ]
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Poison",
+      "Flying",
+      "Bug",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 164,
+    "id": 103,
+    "name": "Exeggutor",
+    "attack": 232,
+    "candy": "Exeggcute Candy",
+    "type": "Grass / Psychic",
+    "stamina": 190,
+    "img": "http://www.serebii.net/pokemongo/pokemon/103.png",
+    "num": "103",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Grass",
+      "Ice"
+    ],
+    "defense": 150,
+    "id": 104,
+    "name": "Cubone",
+    "attack": 102,
+    "candy": "Cubone Candy",
+    "type": "Ground",
+    "stamina": 100,
+    "img": "http://www.serebii.net/pokemongo/pokemon/104.png",
+    "num": "104",
+    "multipliers": 1.67
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Grass",
+      "Ice"
+    ],
+    "defense": 202,
+    "id": 105,
+    "name": "Marowak",
+    "attack": 140,
+    "candy": "Cubone Candy",
+    "type": "Ground",
+    "stamina": 120,
+    "img": "http://www.serebii.net/pokemongo/pokemon/105.png",
+    "num": "105",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Flying",
+      "Psychic",
+      "Fairy"
+    ],
+    "defense": 172,
+    "id": 106,
+    "name": "Hitmonlee",
+    "attack": 148,
+    "candy": "None",
+    "type": "Fighting",
+    "stamina": 100,
+    "img": "http://www.serebii.net/pokemongo/pokemon/106.png",
+    "num": "106",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Flying",
+      "Psychic",
+      "Fairy"
+    ],
+    "defense": 204,
+    "id": 107,
+    "name": "Hitmonchan",
+    "attack": 138,
+    "candy": "None",
+    "type": "Fighting",
+    "stamina": 100,
+    "img": "http://www.serebii.net/pokemongo/pokemon/107.png",
+    "num": "107",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 160,
+    "id": 108,
+    "name": "Lickitung",
+    "attack": 126,
+    "candy": "None",
+    "type": "Normal",
+    "stamina": 180,
+    "img": "http://www.serebii.net/pokemongo/pokemon/108.png",
+    "num": "108",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Ground",
+      "Psychic"
+    ],
+    "defense": 142,
+    "id": 109,
+    "name": "Koffing",
+    "attack": 136,
+    "candy": "Koffing Candy",
+    "type": "Poison",
+    "stamina": 80,
+    "img": "http://www.serebii.net/pokemongo/pokemon/109.png",
+    "num": "109",
+    "multipliers": 1.11
+  },
+  {
+    "weaknesses": [
+      "Ground",
+      "Psychic"
+    ],
+    "defense": 198,
+    "id": 110,
+    "name": "Weezing",
+    "attack": 190,
+    "candy": "Koffing Candy",
+    "type": "Poison",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/110.png",
+    "num": "110",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Grass",
+      "Ice",
+      "Fighting",
+      "Ground",
+      "Steel"
+    ],
+    "defense": 116,
+    "id": 111,
+    "name": "Rhyhorn",
+    "attack": 110,
+    "candy": "Rhyhorn Candy",
+    "type": "Ground / Rock",
+    "stamina": 160,
+    "img": "http://www.serebii.net/pokemongo/pokemon/111.png",
+    "num": "111",
+    "multipliers": 1.91
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Grass",
+      "Ice",
+      "Fighting",
+      "Ground",
+      "Steel"
+    ],
+    "defense": 160,
+    "id": 112,
+    "name": "Rhydon",
+    "attack": 166,
+    "candy": "Rhyhorn Candy",
+    "type": "Ground / Rock",
+    "stamina": 210,
+    "img": "http://www.serebii.net/pokemongo/pokemon/112.png",
+    "num": "112",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 60,
+    "id": 113,
+    "name": "Chansey",
+    "attack": 40,
+    "candy": "None",
+    "type": "Normal",
+    "stamina": 500,
+    "img": "http://www.serebii.net/pokemongo/pokemon/113.png",
+    "num": "113",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Poison",
+      "Flying",
+      "Bug"
+    ],
+    "defense": 152,
+    "id": 114,
+    "name": "Tangela",
+    "attack": 164,
+    "candy": "None",
+    "type": "Grass",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/114.png",
+    "num": "114",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 178,
+    "id": 115,
+    "name": "Kangaskhan",
+    "attack": 142,
+    "candy": "None",
+    "type": "Normal",
+    "stamina": 210,
+    "img": "http://www.serebii.net/pokemongo/pokemon/115.png",
+    "num": "115",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 100,
+    "id": 116,
+    "name": "Horsea",
+    "attack": 122,
+    "candy": "Horsea Candy",
+    "type": "Water",
+    "stamina": 60,
+    "img": "http://www.serebii.net/pokemongo/pokemon/116.png",
+    "num": "116",
+    "multipliers": 2.23
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 150,
+    "id": 117,
+    "name": "Seadra",
+    "attack": 176,
+    "candy": "Horsea Candy",
+    "type": "Water",
+    "stamina": 110,
+    "img": "http://www.serebii.net/pokemongo/pokemon/117.png",
+    "num": "117",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 126,
+    "id": 118,
+    "name": "Goldeen",
+    "attack": 112,
+    "candy": "Goldeen Candy",
+    "type": "Water",
+    "stamina": 90,
+    "img": "http://www.serebii.net/pokemongo/pokemon/118.png",
+    "num": "118",
+    "multipliers": [
+      2.15,
+      2.2
+    ]
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 160,
+    "id": 119,
+    "name": "Seaking",
+    "attack": 172,
+    "candy": "Goldeen Candy",
+    "type": "Water",
+    "stamina": 160,
+    "img": "http://www.serebii.net/pokemongo/pokemon/119.png",
+    "num": "119",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 128,
+    "id": 120,
+    "name": "Staryu",
+    "attack": 130,
+    "candy": "Staryu Candy",
+    "type": "Water",
+    "stamina": 60,
+    "img": "http://www.serebii.net/pokemongo/pokemon/120.png",
+    "num": "120",
+    "multipliers": [
+      2.38,
+      2.41
+    ]
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass",
+      "Bug",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 192,
+    "id": 121,
+    "name": "Starmie",
+    "attack": 194,
+    "candy": "Staryu Candy",
+    "type": "Water / Psychic",
+    "stamina": 120,
+    "img": "http://www.serebii.net/pokemongo/pokemon/121.png",
+    "num": "121",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Bug",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 196,
+    "id": 122,
+    "name": "Mr. Mime",
+    "attack": 154,
+    "candy": "None",
+    "type": "Psychic",
+    "stamina": 80,
+    "img": "http://www.serebii.net/pokemongo/pokemon/122.png",
+    "num": "122",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Electric",
+      "Ice",
+      "Flying",
+      "Rock"
+    ],
+    "defense": 180,
+    "id": 123,
+    "name": "Scyther",
+    "attack": 176,
+    "candy": "None",
+    "type": "Bug / Flying",
+    "stamina": 140,
+    "img": "http://www.serebii.net/pokemongo/pokemon/123.png",
+    "num": "123",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Bug",
+      "Rock",
+      "Ghost",
+      "Dark",
+      "Steel"
+    ],
+    "defense": 134,
+    "id": 124,
+    "name": "Jynx",
+    "attack": 172,
+    "candy": "None",
+    "type": "Ice / Psychic",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/124.png",
+    "num": "124",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Ground"
+    ],
+    "defense": 160,
+    "id": 125,
+    "name": "Electabuzz",
+    "attack": 198,
+    "candy": "None",
+    "type": "Electric",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/125.png",
+    "num": "125",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Ground",
+      "Rock"
+    ],
+    "defense": 158,
+    "id": 126,
+    "name": "Magmar",
+    "attack": 214,
+    "candy": "None",
+    "type": "Fire",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/126.png",
+    "num": "126",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Flying",
+      "Rock"
+    ],
+    "defense": 186,
+    "id": 127,
+    "name": "Pinsir",
+    "attack": 184,
+    "candy": "None",
+    "type": "Bug",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/127.png",
+    "num": "127",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 184,
+    "id": 128,
+    "name": "Tauros",
+    "attack": 148,
+    "candy": "None",
+    "type": "Normal",
+    "stamina": 150,
+    "img": "http://www.serebii.net/pokemongo/pokemon/128.png",
+    "num": "128",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 84,
+    "id": 129,
+    "name": "Magikarp",
+    "attack": 42,
+    "candy": "Magikarp Candy",
+    "type": "Water",
+    "stamina": 40,
+    "img": "http://www.serebii.net/pokemongo/pokemon/129.png",
+    "num": "129",
+    "multipliers": [
+      10.1,
+      11.8
+    ]
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Rock"
+    ],
+    "defense": 196,
+    "id": 130,
+    "name": "Gyarados",
+    "attack": 192,
+    "candy": "Magikarp Candy",
+    "type": "Water / Flying",
+    "stamina": 190,
+    "img": "http://www.serebii.net/pokemongo/pokemon/130.png",
+    "num": "130",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass",
+      "Fighting",
+      "Rock"
+    ],
+    "defense": 190,
+    "id": 131,
+    "name": "Lapras",
+    "attack": 186,
+    "candy": "None",
+    "type": "Water / Ice",
+    "stamina": 260,
+    "img": "http://www.serebii.net/pokemongo/pokemon/131.png",
+    "num": "131",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 110,
+    "id": 132,
+    "name": "Ditto",
+    "attack": 110,
+    "candy": "None",
+    "type": "Normal",
+    "stamina": 96,
+    "img": "http://www.serebii.net/pokemongo/pokemon/132.png",
+    "num": "132",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 128,
+    "id": 133,
+    "name": "Eevee",
+    "attack": 114,
+    "candy": "Eevee Candy",
+    "type": "Normal",
+    "stamina": 110,
+    "img": "http://www.serebii.net/pokemongo/pokemon/133.png",
+    "num": "133",
+    "multipliers": [
+      2.02,
+      2.64
+    ]
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass"
+    ],
+    "defense": 168,
+    "id": 134,
+    "name": "Vaporeon",
+    "attack": 186,
+    "candy": "Eevee Candy",
+    "type": "Water",
+    "stamina": 260,
+    "img": "http://www.serebii.net/pokemongo/pokemon/134.png",
+    "num": "134",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Ground"
+    ],
+    "defense": 174,
+    "id": 135,
+    "name": "Jolteon",
+    "attack": 192,
+    "candy": "None",
+    "type": "Electric",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/135.png",
+    "num": "135",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Ground",
+      "Rock"
+    ],
+    "defense": 178,
+    "id": 136,
+    "name": "Flareon",
+    "attack": 238,
+    "candy": "Eevee Candy",
+    "type": "Fire",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/136.png",
+    "num": "136",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 158,
+    "id": 137,
+    "name": "Porygon",
+    "attack": 156,
+    "candy": "None",
+    "type": "Normal",
+    "stamina": 130,
+    "img": "http://www.serebii.net/pokemongo/pokemon/137.png",
+    "num": "137",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass",
+      "Fighting",
+      "Ground"
+    ],
+    "defense": 160,
+    "id": 138,
+    "name": "Omanyte",
+    "attack": 132,
+    "candy": "Omanyte Candy",
+    "type": "Rock / Water",
+    "stamina": 70,
+    "img": "http://www.serebii.net/pokemongo/pokemon/138.png",
+    "num": "138",
+    "multipliers": 2.12
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass",
+      "Fighting",
+      "Ground"
+    ],
+    "defense": 202,
+    "id": 139,
+    "name": "Omastar",
+    "attack": 180,
+    "candy": "None",
+    "type": "Rock / Water",
+    "stamina": 140,
+    "img": "http://www.serebii.net/pokemongo/pokemon/139.png",
+    "num": "139",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass",
+      "Fighting",
+      "Ground"
+    ],
+    "defense": 142,
+    "id": 140,
+    "name": "Kabuto",
+    "attack": 148,
+    "candy": "Kabuto Candy",
+    "type": "Rock / Water",
+    "stamina": 60,
+    "img": "http://www.serebii.net/pokemongo/pokemon/140.png",
+    "num": "140",
+    "multipliers": [
+      1.97,
+      2.37
+    ]
+  },
+  {
+    "weaknesses": [
+      "Electric",
+      "Grass",
+      "Fighting",
+      "Ground"
+    ],
+    "defense": 190,
+    "id": 141,
+    "name": "Kabutops",
+    "attack": 190,
+    "candy": "Kabuto Candy",
+    "type": "Rock / Water",
+    "stamina": 120,
+    "img": "http://www.serebii.net/pokemongo/pokemon/141.png",
+    "num": "141",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Electric",
+      "Ice",
+      "Rock",
+      "Steel"
+    ],
+    "defense": 162,
+    "id": 142,
+    "name": "Aerodactyl",
+    "attack": 182,
+    "candy": "None",
+    "type": "Rock / Flying",
+    "stamina": 160,
+    "img": "http://www.serebii.net/pokemongo/pokemon/142.png",
+    "num": "142",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fighting"
+    ],
+    "defense": 180,
+    "id": 143,
+    "name": "Snorlax",
+    "attack": 180,
+    "candy": "None",
+    "type": "Normal",
+    "stamina": 320,
+    "img": "http://www.serebii.net/pokemongo/pokemon/143.png",
+    "num": "143",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Fire",
+      "Electric",
+      "Rock",
+      "Steel"
+    ],
+    "defense": 242,
+    "id": 144,
+    "name": "Articuno",
+    "attack": 198,
+    "candy": "None",
+    "type": "Ice / Flying",
+    "stamina": 180,
+    "img": "http://www.serebii.net/pokemongo/pokemon/144.png",
+    "num": "144",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Ice",
+      "Rock"
+    ],
+    "defense": 194,
+    "id": 145,
+    "name": "Zapdos",
+    "attack": 232,
+    "candy": "None",
+    "type": "Electric / Flying",
+    "stamina": 180,
+    "img": "http://www.serebii.net/pokemongo/pokemon/145.png",
+    "num": "145",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Water",
+      "Electric",
+      "Rock"
+    ],
+    "defense": 194,
+    "id": 146,
+    "name": "Moltres",
+    "attack": 242,
+    "candy": "None",
+    "type": "Fire / Flying",
+    "stamina": 180,
+    "img": "http://www.serebii.net/pokemongo/pokemon/146.png",
+    "num": "146",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Ice",
+      "Dragon",
+      "Fairy"
+    ],
+    "defense": 110,
+    "id": 147,
+    "name": "Dratini",
+    "attack": 128,
+    "candy": "Dratini Candy",
+    "type": "Dragon",
+    "stamina": 82,
+    "img": "http://www.serebii.net/pokemongo/pokemon/147.png",
+    "num": "147",
+    "multipliers": [
+      1.83,
+      1.84
+    ]
+  },
+  {
+    "weaknesses": [
+      "Ice",
+      "Dragon",
+      "Fairy"
+    ],
+    "defense": 152,
+    "id": 148,
+    "name": "Dragonair",
+    "attack": 170,
+    "candy": "Dratini Candy",
+    "type": "Dragon",
+    "stamina": 122,
+    "img": "http://www.serebii.net/pokemongo/pokemon/148.png",
+    "num": "148",
+    "multipliers": 2.05
+  },
+  {
+    "weaknesses": [
+      "Ice",
+      "Rock",
+      "Dragon",
+      "Fairy"
+    ],
+    "defense": 212,
+    "id": 149,
+    "name": "Dragonite",
+    "attack": 250,
+    "candy": "Dratini Candy",
+    "type": "Dragon / Flying",
+    "stamina": 182,
+    "img": "http://www.serebii.net/pokemongo/pokemon/149.png",
+    "num": "149",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Bug",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 202,
+    "id": 150,
+    "name": "Mewtwo",
+    "attack": 284,
+    "candy": "None",
+    "type": "Psychic",
+    "stamina": 212,
+    "img": "http://www.serebii.net/pokemongo/pokemon/150.png",
+    "num": "150",
+    "multipliers": null
+  },
+  {
+    "weaknesses": [
+      "Bug",
+      "Ghost",
+      "Dark"
+    ],
+    "defense": 220,
+    "id": 151,
+    "name": "Mew",
+    "attack": 220,
+    "candy": "None",
+    "type": "Psychic",
+    "stamina": 200,
+    "img": "http://www.serebii.net/pokemongo/pokemon/151.png",
+    "num": "151",
+    "multipliers": null
+  }
+]

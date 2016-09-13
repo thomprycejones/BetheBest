@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "954767307342",
+    "firebase_url": "https://be-the-best-pogo.firebaseio.com",
+    "project_id": "be-the-best-pogo",
+    "storage_bucket": "be-the-best-pogo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954767307342:android:c4aff67dade62918",
+        "android_client_info": {
+          "package_name": "io.thomasprycejones.bethebestpogo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954767307342-i8leclssuhbneic90lsck657apaeikhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiFz3qMAFhKwnoVY_X-a4Q8dqpbkowxDc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

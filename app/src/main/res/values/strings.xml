@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Be the Best</string>
+    <string name="app_name_2">Be the Best - Pokemon Go Help</string>
+    <string name="banner_home_footer" translatable="false">ca-app-pub-9453927455644163/4660700332</string>
+    <string name="interstitial_full_screen" translatable="false">ca-app-pub-9453927455644163/7614166734</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format" translatable="false">Hello World from section: %1$d</string>
+
+    <!-- Welcome Activity -->
+    <string name="title_activity_welcome" translatable="false">Be the Best</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Want to be the Very Best?</string>
+    <string name="slide_1_desc">The easiest way to become the best Pokemon trainer in the world!</string>
+    <string name="slide_2_title">IV Calculator</string>
+    <string name="slide_2_desc">Find out if your Pokemon can be the best!</string>
+    <string name="slide_3_title">Great Tips and Advices</string>
+    <string name="slide_3_desc">Capture, train, and fight to be the best!</string>
+    <string name="slide_4_title">Become the best trainer!</string>
+    <string name="slide_4_desc" translatable="false"></string>
+
+    <!-- Team Selector -->
+    <string name="select_team">Select Your Team</string>
+    <string name="choose_valor">GO</string>
+    <string name="choose_mystic">GO</string>
+    <string name="choose_instinct">GO</string>
+
+    <!-- Main Activity -->
+    <string name="home_fragment">HOME</string>
+    <string name="pokedex_fragment">POKEDEX</string>
+    <string name="news_fragment">NEWS</string>
+    <string name="tips_fragment">TIPS</string>
+    <string name="ads_fragment">ADS</string>
+
+    <!-- Home Fragment -->
+    <string name="home_startactivity">Start Activity</string>
+    <string name="home_updateapk">Update</string>
+    <string name="home_newversiontoast">A new version of the app is available!</string>
+    <string name="home_dowloadingtoast">Downloading...</string>
+
+    <!-- Pokedex Fragment -->
+    <string name="pokedex_information">INFORMATION</string>
+    <string name="pokedex_iv">IV CALCULATOR</string>
+    <string name="pokedex_evolve">EVOLVE</string>
+    <string name="pokedex_combatmoves">COMBAT MOVES</string>
+
+    <!-- Ads Fragment -->
+    <string name="ads_banner">BANNER</string>
+    <string name="ads_interstial">INTERSTITIAL</string>
+    <string name="ads_pedirBanner">Show Banner</string>
+    <string name="ads_pedirInterstial">Show Intersitial</string>
+    <string name="ads_permission">Clicking this buttons will show you advertisements. \n
+        This is like a little tip for the developer.\n
+        Thanks :)</string>
+
+    <!-- Web Service -->
+    <string name="webservice_iv">IV</string>
+    <string name="webservice_map">MAP</string>
+    <string name="webservice_close">CLOSE</string>
+
+
+
+
+
+
+
+    <!-- Strings related to Settings -->
+        <!-- Example General settings -->
+    <string name="pref_header_general" translatable="false">General</string>
+    <string name="pref_title_social_recommendations" translatable="false">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations" translatable="false">Recommendations for people to contact
+        based on your message history
+    </string>
+    <string name="pref_title_display_name" translatable="false">Display name</string>
+    <string name="pref_default_display_name" translatable="false">John Smith</string>
+    <string name="pref_title_add_friends_to_messages" translatable="false">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+        <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync" translatable="false">Data &amp; sync</string>
+    <string name="pref_title_sync_frequency" translatable="false">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+    <string name="pref_title_system_sync_settings" translatable="false">System sync settings</string>
+        <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications" translatable="false">Notifications</string>
+    <string name="pref_title_new_message_notifications" translatable="false">New message notifications</string>
+    <string name="pref_title_ringtone" translatable="false">Ringtone</string>
+    <string name="pref_ringtone_silent" translatable="false">Silent</string>
+    <string name="pref_title_vibrate" translatable="false">Vibrate</string>
+    <string name="title_activity_settings">Be the Best</string>
+
+
+</resources>

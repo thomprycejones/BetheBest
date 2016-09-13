@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#F6E652</color>
+    <color name="bg_screen2">#bdff73</color>
+    <color name="bg_screen3">#D3CBD8</color>
+    <color name="bg_screen4">#F3E7A9</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <!-- Teams colors -->
+    <color name="Valor">#F3150A</color>
+    <color name="Mystic">#0677EE</color>
+    <color name="Instinct">#FBD208</color>
+    <color name="ValorBG">#FF5E5E</color>
+    <color name="MysticBG">#37bbf7</color>
+    <color name="InstinctBG">#F4E8A1</color>
+    <color name="ValorStatusBar">#C11107</color>
+    <color name="MysticStatusBar">#0356ad</color>
+    <color name="InstinctStatusBar">#C5A400</color>
+
+    <!-- Pokemon Colors -->
+    <color name="bug_light">#E6FFBC</color>
+    <color name="bug_primary">#ADFF21</color>
+    <color name="bug_dark">#82BF19</color>
+    <color name="bug_accent">#C8FF6B</color>
+
+    <color name="dark_light">#E1CDC9</color>
+    <color name="dark_primary">#9B5A4A</color>
+    <color name="dark_dark">#744438</color>
+    <color name="dark_accent">#BC9186</color>
+
+    <color name="dragon_light">#D7D0F8</color>
+    <color name="dragon_primary">#7B63E7</color>
+    <color name="dragon_dark">#5C4AAD</color>
+    <color name="dragon_accent">#A797EF</color>
+
+    <color name="electric_light">#FFEEC1</color>
+    <color name="electric_primary">#FFC631</color>
+    <color name="electric_dark">#BF9525</color>
+    <color name="electric_accent">#FFD976</color>
+
+    <color name="fairy_light">#FDE9FD</color>
+    <color name="fairy_primary">#F7B5F7</color>
+    <color name="fairy_dark">#B988B9</color>
+    <color name="fairy_accent">#FACEFA</color>
+
+    <color name="fighting_light">#E4CBC4</color>
+    <color name="fighting_primary">#A55239</color>
+    <color name="fighting_dark">#7C3E2B</color>
+    <color name="fighting_accent">#C38C7B</color>
+
+    <color name="fire_light">#FDCBC1</color>
+    <color name="fire_primary">#F75231</color>
+    <color name="fire_dark">#B93E25</color>
+    <color name="fire_accent">#FA8C76</color>
+
+    <color name="flying_light">#E1E6FD</color>
+    <color name="flying_primary">#9AADF7</color>
+    <color name="flying_dark">#7482B9</color>
+    <color name="flying_accent">#BCC8FA</color>
+
+    <color name="ghost_light">#D0D0E9</color>
+    <color name="ghost_primary">#6363B5</color>
+    <color name="ghost_dark">#4A4A88</color>
+    <color name="ghost_accent">#9797CE</color>
+
+    <color name="grass_light">#D7F0CB</color>
+    <color name="grass_primary">#7BCE52</color>
+    <color name="grass_dark">#5C9B3E</color>
+    <color name="grass_accent">#A7DE8C</color>
+
+    <color name="ground_light">#F3E9CD</color>
+    <color name="ground_primary">#D6B55A</color>
+    <color name="ground_dark">#A18844</color>
+    <color name="ground_accent">#E4CE91</color>
+
+    <color name="ice_light">#CDF0F8</color>
+    <color name="ice_primary">#5ACEE7</color>
+    <color name="ice_dark">#449BAD</color>
+    <color name="ice_accent">#91DEEF</color>
+
+    <color name="normal_light">#E6E4DF</color>
+    <color name="normal_primary">#ADA594</color>
+    <color name="normal_dark">#827C6F</color>
+    <color name="normal_accent">#C8C3B8</color>
+
+    <color name="poison_light">#E9CDE4</color>
+    <color name="poison_primary">#B55AA5</color>
+    <color name="poison_dark">#88447C</color>
+    <color name="poison_accent">#CE91C3</color>
+
+    <color name="psychic_light">#FFD5E4</color>
+    <color name="psychic_primary">#FF73A5</color>
+    <color name="psychic_dark">#BF567C</color>
+    <color name="psychic_accent">#FFA2C3</color>
+
+    <color name="rock_light">#EBE4CD</color>
+    <color name="rock_primary">#BDA55A</color>
+    <color name="rock_dark">#8E7C44</color>
+    <color name="rock_accent">#D3C391</color>
+
+    <color name="steel_light">#E6E6EE</color>
+    <color name="steel_primary">#ADADC6</color>
+    <color name="steel_dark">#828295</color>
+    <color name="steel_accent">#C8C8D9</color>
+
+    <color name="water_light">#C4E1FF</color>
+    <color name="water_primary">#399CFF</color>
+    <color name="water_dark">#2B75BF</color>
+    <color name="water_accent">#7BBDFF</color>
+
+</resources>

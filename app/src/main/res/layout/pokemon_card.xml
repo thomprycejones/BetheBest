@@ -1,0 +1,295 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true"
+    android:id="@+id/pokemoncard_cardview"
+    android:visibility="visible">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemoncard_background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/pokemoncard_img"
+            android:layout_toEndOf="@+id/pokemoncard_img"
+            android:background="#9ab6b6b6"
+            android:id="@+id/pokemoncard_layoutnormal"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/pokemoncard_name"
+                android:layout_alignParentTop="true"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/pokemoncard_number"
+                android:layout_above="@+id/linea1"
+                android:layout_alignRight="@+id/linea1"
+                android:layout_alignEnd="@+id/linea1"
+                android:textColor="#d8d5d5" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#ffd5d5d5"
+                android:id="@+id/linea1"
+                android:layout_below="@+id/pokemoncard_name">
+
+            </View>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linea1"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/linearLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Type: "
+                    android:id="@+id/textView8"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="15dp"
+                    android:id="@+id/pokemoncard_type1"
+                    android:layout_marginTop="2dp" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="15dp"
+                    android:id="@+id/pokemoncard_type2"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="2dp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/pokemoncard_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/pokemoncard_img"
+            android:layout_toEndOf="@+id/pokemoncard_img"
+            android:background="#9a5caf40"
+            android:id="@+id/pokemoncard_layoutexpanded"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/pokemoncardextended_name"
+                android:layout_alignParentTop="true"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/pokemoncardextended_number"
+                android:layout_above="@+id/linea2"
+                android:layout_alignRight="@+id/linea2"
+                android:layout_alignEnd="@+id/linea2"
+                android:textColor="#d8d5d5" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#ffd5d5d5"
+                android:id="@+id/linea2"
+                android:layout_below="@+id/pokemoncardextended_name">
+
+            </View>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linea2"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/pokemoncardextended_layouttype">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Type: "
+                    android:id="@+id/pokemoncardextended_typestring"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="15dp"
+                    android:id="@+id/pokemoncardextended_type1"
+                    android:layout_marginTop="2dp" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="15dp"
+                    android:id="@+id/pokemoncardextended_type2"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="2dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/pokemoncardextended_layouttype"
+                android:layout_toStartOf="@+id/pokemoncardextended_number"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="2dp"
+                android:id="@+id/pokemoncardextended_layoutboxes">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pokedex_information"
+                        android:id="@+id/pokemoncardextended_buttoninformation"
+                        android:textColor="#ffffff"
+                        android:textSize="10dp" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pokedex_evolve"
+                        android:id="@+id/pokemoncardextended_buttonevolve"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#ffffff"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/pokemoncardextended_layoutinformations"
+                    android:layout_marginTop="5dp"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Weak"
+                        android:id="@+id/textInformationWeakness"
+                        android:textColor="#ffffff"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/information_weakcontainer"></LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/information_weakcontainerplus"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/pokemoncard_layoutevolve"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Combat Power"
+                        android:id="@+id/pokemoncard_layoutevolve_combatstring"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffffff"
+                        android:layout_marginTop="20dp" />
+
+                    <EditText
+                        android:layout_width="168dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:id="@+id/pokemoncard_layoutevolve_combat"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffffff"
+                        android:textAlignment="center" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Calculate"
+                        android:id="@+id/pokemoncard_layoutevolve_buttoncalculate"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffffff"
+                        android:layout_marginTop="5dp" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/pokemoncard_layoutevolve_results"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"></LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
