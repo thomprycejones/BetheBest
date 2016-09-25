@@ -8,7 +8,9 @@ import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.PixelFormat;
 import android.location.Location;
+import android.net.http.SslError;
 import android.os.Binder;
+import android.os.Build;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
@@ -17,6 +19,9 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
+import android.webkit.SslErrorHandler;
+import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
@@ -103,21 +108,32 @@ public class WebViewService extends Service {
         button_refresh = (ImageButton) mTopView.findViewById(R.id.webView_refresh);
 
         webView_pokemap = (WebView) mTopView.findViewById(R.id.webView_pokemap);
-        webView_silphroad = (WebView) mTopView.findViewById(R.id.webView_silphroad);
         webView_pokemap.getSettings().setJavaScriptEnabled(true);
-        webView_silphroad.getSettings().setJavaScriptEnabled(true);
-
-        webView_silphroad.loadUrl("https://thesilphroad.com/research"); //open silphroad
-
+        webView_pokemap.getSettings().setPluginState(WebSettings.PluginState.ON);
+        webView_pokemap.clearCache(true);
+        webView_pokemap.getSettings().setLoadWithOverviewMode(true);
+        webView_pokemap.getSettings().setUseWideViewPort(true);
+        webView_pokemap.setWebChromeClient(new WebChromeClient());
         SmartLocation.with(getApplicationContext()).location()
                 .start(new OnLocationUpdatedListener() {
                     @Override
                     public void onLocationUpdated(Location location) {
                         lat = String.valueOf(location.getLatitude());
                         lon = String.valueOf(location.getLongitude());
-                        webView_pokemap.loadUrl("https://fastpokemap.se/#"+lat+","+lon); //open pokemap
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                            webView_pokemap.loadUrl("https://fastpokemap.se/#"+lat+","+lon);
+                        }
+                        else{webView_pokemap.loadUrl("https://pokestumble.com/#"+lat+","+lon+",16z");}
                     }
                 });
+
+
+
+
+        webView_silphroad = (WebView) mTopView.findViewById(R.id.webView_silphroad);
+        webView_silphroad.getSettings().setJavaScriptEnabled(true);
+        webView_silphroad.loadUrl("https://thesilphroad.com/research"); //open silphroad
+
 
 
 

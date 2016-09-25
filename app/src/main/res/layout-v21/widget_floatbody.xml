@@ -16,7 +16,7 @@
 
         <WebView
             android:layout_width="match_parent"
-            android:layout_height="550dp"
+            android:layout_height="match_parent"
             android:id="@+id/webView_pokemap"
             android:visibility="visible"
             android:layout_centerVertical="true"
@@ -26,7 +26,7 @@
 
         <WebView
             android:layout_width="match_parent"
-            android:layout_height="550dp"
+            android:layout_height="match_parent"
             android:id="@+id/webView_silphroad"
             android:visibility="gone"
             android:layout_alignParentLeft="true"

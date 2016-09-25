@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -115,7 +116,10 @@ public class PokedexFragment extends Fragment {
         searchInput = (EditText) view.findViewById(fab_search);
         clearInput = (ImageView) view.findViewById(fab_clear);
         searchLayout = (FrameLayout) view.findViewById(fab_layout);
-        instantiateFAB(view);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            instantiateFAB(view);
+        }
+
 
         return view;
     }

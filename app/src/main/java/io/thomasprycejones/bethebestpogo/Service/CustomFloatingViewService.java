@@ -157,7 +157,7 @@ public class CustomFloatingViewService extends Service implements FloatingViewLi
     private void loadDynamicOptions() {
         final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
 
-        final String displayModeSettings = sharedPref.getString("settings_display_mode", "");
+        final String displayModeSettings ="Always";
         if ("Always".equals(displayModeSettings)) {
             mFloatingViewManager.setDisplayMode(FloatingViewManager.DISPLAY_MODE_SHOW_ALWAYS);
         } else if ("FullScreen".equals(displayModeSettings)) {
